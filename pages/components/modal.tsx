@@ -35,7 +35,7 @@ const Modal = styled.div`
 export default ({ children, isOpen, onClose }) => {
   const refModal = React.useRef<HTMLDivElement>();
   const outsideClick = (e: MouseEvent) => {
-    if (refModal?.current && !refModal.current.contains(e.target)) {
+    if (refModal?.current && !refModal.current.contains(e.target as Node)) {
       onClose();
       document.removeEventListener('mousedown', outsideClick, false);
     }
