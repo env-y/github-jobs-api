@@ -7,9 +7,9 @@ import styles from '../styles/Home.module.css'
 import { media } from '../styles/utils';
 import { ThemeContext } from '../store'
 import { Container, Row, MoveUp } from '../styles';
-import Header from './sections/header';
-import Filter from './sections/filter';
-import Job from './components/job';
+import Header from '../sections/header';
+import Filter from '../sections/filter';
+import Job from '../components/job';
 import { GitJob } from '../models/gitJob';
 
 const RowJobs = styled(Row)`

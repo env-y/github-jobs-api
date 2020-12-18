@@ -8,9 +8,9 @@ import { ColorButton, MainButton } from '../../styles/button';
 
 import { GitJob } from '../../models/gitJob';
 
-import Header from '../sections/header';
-import InfoRow from '../components/infoRow';
-import job from '../components/job';
+import Header from '../../sections/header';
+import InfoRow from '../../components/infoRow';
+import job from '../../components/job';
 
 const CompanyRow = styled.div`
   display: flex;

@@ -2,18 +2,18 @@ import styled from 'styled-components';
 import Link from 'next/link'
 import * as React from 'react';
 
-import { ThemeContext } from '../../store';
+import { ThemeContext } from '../store';
 
-import { media } from '../../styles/utils';
-import { Container, Row } from '../../styles';
-import { ThemeEnum } from '../../const';
+import { media } from '../styles/utils';
+import { Container, Row } from '../styles';
+import { ThemeEnum } from '../const';
 
-import LOGO from '../../public/images/desktop/logo.svg';
-import BG_MOBILE from '../../public/images/mobile/bg-pattern-header.svg';
-import BG_TABLET from '../../public/images/tablet/bg-pattern-header.svg';
-import BG_DESKTOP from '../../public/images/desktop/bg-pattern-header.svg';
-import SUN from '../../public/images/desktop/icon-sun.svg';
-import MOON from '../../public/images/desktop/icon-moon.svg';
+import LOGO from '../public/images/desktop/logo.svg';
+import BG_MOBILE from '../public/images/mobile/bg-pattern-header.svg';
+import BG_TABLET from '../public/images/tablet/bg-pattern-header.svg';
+import BG_DESKTOP from '../public/images/desktop/bg-pattern-header.svg';
+import SUN from '../public/images/desktop/icon-sun.svg';
+import MOON from '../public/images/desktop/icon-moon.svg';
 
 const HeadContainer = styled.div`
   padding: 3.2rem 0 7rem;

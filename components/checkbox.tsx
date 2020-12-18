@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import CHECK_ICON from '../../public/images/desktop/icon-check.svg';
+import CHECK_ICON from '../public/images/desktop/icon-check.svg';
 
 const LabelWrap = styled.label`
   display: flex;

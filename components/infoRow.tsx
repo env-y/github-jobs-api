@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import formatDistanceToNowStrict from 'date-fns/formatDistanceToNowStrict'
 
-import { formatDistance } from '../../utils';
-import { GitJob } from '../../models/gitJob';
+import { formatDistance } from '../utils';
+import { GitJob } from '../models/gitJob';
 
-import { Info } from '../../styles';
+import { Info } from '../styles';
 
 const InfoRow = styled.div`
   margin-bottom: 1.6rem;

@@ -1,5 +1,5 @@
 
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from 'styled-components'
 import { normalize } from 'polished';
 
 import { media } from './utils';

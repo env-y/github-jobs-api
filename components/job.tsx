@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 
-import { GitJob } from '../../models/gitJob';
+import { GitJob } from '../models/gitJob';
 
-import { Row, Info, Location } from '../../styles';
-import { media } from '../../styles/utils';
+import { Row, Info, Location } from '../styles';
+import { media } from '../styles/utils';
 
-import InfoRow from '../components/infoRow';
+import InfoRow from './infoRow';
 
 const Title = styled.div`
   margin-bottom: 1.7rem;

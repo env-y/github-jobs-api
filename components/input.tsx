@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { media } from '../../styles/utils';
+import { media } from '../styles/utils';
 
 const Wrap = styled.div`
   position: relative;

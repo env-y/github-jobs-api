@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 import * as React from 'react';
 
-import { media } from '../../styles/utils';
-import { Container, Row } from '../../styles';
-import { MainButton, DefaultButton } from '../../styles/button';
+import { media } from '../styles/utils';
+import { Container, Row } from '../styles';
+import { MainButton, DefaultButton } from '../styles/button';
 import Input from '../components/input';
 import Checkbox from '../components/checkbox';
 import Modal from '../components/modal';
 
-import SEARCH from '../../public/images/desktop/icon-search.svg';
-import LOCATION from '../../public/images/desktop/icon-location.svg';
+import SEARCH from '../public/images/desktop/icon-search.svg';
+import LOCATION from '../public/images/desktop/icon-location.svg';
 import FilterSvg from './filterSvg';
 import SearchSvg from './searchSvg';
 
